@@ -1,0 +1,215 @@
+
+body{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #f0f0f0;
+}
+   #box1, #box2,#box3 {
+    width: 300px;
+    padding: 20px;
+    margin: 15px ; 
+    border-radius: 8px;
+    
+    text-align: center; 
+    color: white; 
+  
+
+   
+     transform: translate(20px);  opacity: 0; 
+    
+    animation-name: fadeInSlideUp; 
+    animation-duration: 2s;
+     animation-fill-mode: forwards;
+  
+   
+    animation-timing-function: ease-out; 
+}
+
+
+#box1 {
+    background-color: #3498db; 
+    animation-delay: 0.5s; 
+}
+
+
+#box2 {
+    background-color: #2ecc71;
+    animation-delay: 1.0s; 
+}
+
+#box3 {
+    background-color: #bc1a5e;
+    animation-delay: 1.5s; 
+}
+
+
+#box1 h1, #box2 h2, #box2 h3 {
+   
+    color: white; 
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translate(20px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    display: flex; /* Flexbox সক্রিয় করা হয়েছে */
+    flex-direction: column; /* এলিমেন্টগুলো একটার নিচে একটা থাকবে */
+    justify-content: center; /* উল্লম্বভাবে মাঝখানে আনার জন্য */
+    align-items: center; /* অনুভূমিকভাবে মাঝখানে আনার জন্য */
+    min-height: 100vh; /* সম্পূর্ণ ভিউপোর্ট উচ্চতা */
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    /* text-align: center; - Flexbox ব্যবহার করলে এটি অপ্রয়োজনীয় */
+}
+
+/* Common styles for all boxes */
+#box1, #box2 {
+    width: 300px;
+    padding: 20px;
+    margin: 15px 0; /* উপরে-নিচে মার্জিন 15px, ডানে-বামে অটো সরাতে 0px করা হয়েছে কারণ Flexbox নিজেই মাঝখানে আনবে */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* ভেতরের লেখা মাঝখানে আনার জন্য */
+    color: white; /* লেখার রঙ সাদা */
+    /* display: block; - Flex item হিসেবে এটি প্রয়োজন নেই */
+}
+
+/* Specific styles for box1 */
+#box1 {
+    background-color: #3498db; /* নীল রঙ */
+}
+
+/* Specific styles for box2 (both instances will get these styles) */
+#box2 {
+    background-color: #2ecc71; /* সবুজ রঙ */
+}
+
+/* Heading styles inside the boxes */
+#box1 h1, #box2 h2, #box2 h3 {
+    margin: 0; /* হেডিং এর ডিফল্ট মার্জিন সরাতে */
+    padding: 0;
+    color: white; /* লেখার রঙ সাদা */
+
+    /* এনিমেশন এর জন্য নির্দিষ্ট স্টাইল */
+    opacity: 0; /* প্রাথমিকভাবে অদৃশ্য থাকবে */
+    transform: translateY(20px); /* প্রাথমিকভাবে একটু নিচে থাকবে */
+    animation-name: fadeInSlideUp; /* @keyframes এর নাম */
+    animation-duration: 0.8s; /* প্রতিটি লেখার এনিমেশন সময়কাল */
+    animation-fill-mode: forwards; /* এনিমেশন শেষ হওয়ার পর শেষ অবস্থা ধরে রাখবে */
+    animation-timing-function: ease-out; /* মসৃণভাবে শুরু হবে */
+}
+
+/* প্রতিটি লেখার জন্য এনিমেশন ডিলে */
+#box1 h1 {
+    animation-delay: 0.5s; /* 0.5 সেকেন্ড পর প্রথম লেখা দেখাবে */
+}
+
+#box2 h2 {
+    animation-delay: 1.0s; /* 1.0 সেকেন্ড পর দ্বিতীয় লেখা দেখাবে */
+}
+
+#box2 h3 {
+    animation-delay: 1.5s; /* 1.5 সেকেন্ড পর তৃতীয় লেখা দেখাবে */
+}
+
+/* @keyframes rule: এখানে এনিমেশনের বিভিন্ন ধাপ সংজ্ঞায়িত করা হয় */
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0; /* শুরু: সম্পূর্ণ অদৃশ্য */
+        transform: translateY(20px); /* শুরু: 20px নিচে */
+    }
+    100% {
+        opacity: 1; /* শেষ: সম্পূর্ণ দৃশ্যমান */
+        transform: translateY(0); /* শেষ: মূল অবস্থানে ফিরে আসবে */
+    }
+}*/
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#box1,#box2,#box3{
+    
+    animation-name:text;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: 3;
+    animation-delay:1s;
+    animation-direction:normal;
+   
+    
+}
+#box1{
+    background-color:darkmagenta;
+    color:white;
+    height:100px;
+    width:100px;
+}
+#box2{
+    background-color:darkorchid;
+    color:white;
+    height:100px;
+    width:100px;
+}
+#box1{
+    background-color:deeppink;
+    color:white;
+    height:100px;
+    width:100px;
+}
+@keyframes text{
+    0%{
+        #box1
+
+    }
+  25%  {
+            
+    }
+}
