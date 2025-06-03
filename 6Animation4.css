@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* সম্পূর্ণ ভিউপোর্ট উচ্চতা */
+   
+    background-color: #f0f8ff; /* হালকা নীল ব্যাকগ্রাউন্ড */
+   
+    color: #333;
+  /* এনিমেশনের সময় অতিরিক্ত স্ক্রলবার এড়াতে */
+} 
+
+/* Container for the boxes */
+.container {
+    display: flex;
+    flex-direction: column; /* বক্সগুলো একটার নিচে একটা থাকবে */
+    align-items: center; /* অনুভূমিকভাবে মাঝখানে আনার জন্য */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Common styles for all animated boxes */
+.animated-box {
+    width: 280px; /* বক্সের প্রস্থ */
+    padding: 25px;
+     margin: 15px 0; 
+   /* উপরে-নিচে মার্জিন */
+    border-radius: 8px;
+    text-align: center;
+    color: white; /* লেখার রঙ সাদা */
+    
+    /* এনিমেশন এর জন্য প্রাথমিক স্টাইল */
+     opacity: 0; 
+   /* প্রাথমিকভাবে অদৃশ্য */
+   transform: translateX(-100px);
+     /* বাম দিক থেকে 100px বাইরে থাকবে */
+    
+    /* এনিমেশন প্রোপার্টি */
+  
+    animation-name: slideInFadeIn; /* @keyframes এর নাম */
+    animation-duration: 1s; /* প্রতিটি বক্সের এনিমেশন সময়কাল */
+    animation-fill-mode: forwards; /* এনিমেশন শেষ হওয়ার পর শেষ অবস্থা ধরে রাখবে */
+    animation-timing-function: ease-out; /* মসৃণভাবে শুরু হবে */
+}
+
+/* Specific styles and animation delays for each box */
+#box1 {
+    background-color: #ff6347; /* টমেটো রঙ */
+    animation-delay: 0.5s; /* 0.5 সেকেন্ড পর প্রথম বক্স দেখাবে */
+}
+
+#box2 {
+    background-color: #4682b4; /* স্টিল ব্লু রঙ */
+    animation-delay: 1.0s; /* 1.0 সেকেন্ড পর দ্বিতীয় বক্স দেখাবে */
+}
+
+#box3 {
+    background-color: #32cd32; /* লাইমগ্রিন রঙ */
+    animation-delay: 1.5s; /* 1.5 সেকেন্ড পর তৃতীয় বক্স দেখাবে */
+}
+
+/* Headings inside the boxes */
+
+
+
+
+/* @keyframes rule: স্লাইড ইন এবং ফেড ইন এনিমেশন */
+@keyframes slideInFadeIn {
+    0% {
+        opacity: 0; /* শুরু: সম্পূর্ণ অদৃশ্য */
+        transform: translateX(-100px); /* শুরু: বাম দিক থেকে 100px বাইরে */
+    }
+    100% {
+        opacity: 1; /* শেষ: সম্পূর্ণ দৃশ্যমান */
+        transform: translateX(0); /* শেষ: তার মূল অবস্থানে ফিরে আসবে */
+    }
+}
