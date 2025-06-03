@@ -64,38 +64,46 @@ h1,p{
     text-align:center;
 }
 
-#one{
 
-    height:40px;
-    width:150px;
-     border-radius: 20%;
-     background-color:rgb(3, 104, 206);
-    color:aliceblue;
-    text-align:center;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    margin-left:700px;
-   
+#one,
+#two {
+    padding: 15px 30px;
+    border-radius: 8px;   
 }
 
+#one {
+    background-color: #007bff; /* নীল বাটন */
+    color: white;
+    border: none;
+}
 
 #two{
+    background-color: transparent;
+    color: #007bff;
+    border: none; 
+}
 
-   
-   
-    color:rgb(3, 104, 206);
-    
+
+div {
     display:flex;
-    flex-direction:row;
-    justify-content:right;
-    margin-left:700px;
-   
-}
-div{
-    display:flex;
-    justify-content:center;
-    border:1px solid rgb(69, 68, 68);
-    background-color:antiquewhite;
+    justify-content: center;
+ 
     
 }
+
+
+#video{
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+video {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+
