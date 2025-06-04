@@ -1,0 +1,71 @@
+
+body{
+    margin:auto;
+    padding:auto;
+   margin-left:50px; 
+}
+
+   div{
+    margin-top:60px;
+   
+  
+    height:auto;
+    width:auto;
+
+}
+   
+
+
+
+
+
+h1{
+   padding-bottom:-0.3px;
+}
+    
+   
+    
+ 
+        p{
+        color:blue;
+    }
+   
+     #one,#two,#three{
+        
+        display:none;
+        
+        
+       
+
+  
+
+    }
+    .main1:hover #one, .main2:hover #two, .main3:hover #three{
+        display:block;
+        text-align:justify;
+        justify-content:right;
+        
+        }
+
+
+         .main1:hover h5, .main2:hover h5, .main3:hover h5{
+            color:blue;
+         }
+       
+        
+         #LMS1,#LMS2,#LMS3{
+            height:450px;
+            width:600px;
+            margin-left:300px;
+            margin-top:-200px;
+         }
+       
+        
+    
+
+    
+  
+
+    
+
+
