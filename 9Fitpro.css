@@ -1,6 +1,8 @@
 body{
     margin-left:20px;
     margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 
@@ -61,7 +63,8 @@ button{
         padding-right:20px;
         margin-top:-10px;
     }
-    
+
+  
      h1{
         text-align:center;
         font-weight:bolder;
@@ -70,11 +73,121 @@ button{
        
      
      }  
+    
      .highlight{
        
         color:rgb(65, 98, 248);
         font-weight:bolder;
+    }
+    #pic1{
+   margin-top:-140px;
+    }
+
+
+.product{
+   
+    border-radius: 10px;
+    padding:50px;
+    height:160px;
+    margin-left:400px;
+    margin-top:-140px;
+
+  
+    width: 140px; 
+  border:1px solid black;
+}
+
+#badge {
+   
+    color: #1261e9;
+    background-color:#9ab6e6;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    }
 
    
 
-     }
+
+
+.icon {
+    
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    color: #4a5568;
+    cursor: pointer;
+    margin-left:160px;
+    margin-top:-60px;
+}
+
+p {
+   font-weight:bolder;
+    
+    
+    color: #2d3748;
+    margin-top: 30px; 
+    margin-bottom: 60px;
+}
+
+#picture {
+    width: 100px;
+    height: 80px;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   padding-left:20px;
+   padding-top:-160px;
+   
+
+}
+
+  .p2{
+    margin-top:-90px;
+
+  } 
+ .p3{
+    margin-left:700px;
+    margin-top:-160px;
+ }
+
+ .button2{
+    width:130px;
+    height:40px;
+  
+    background-color:#0957de;
+    color:white;
+   
+    text-align:center;
+   
+ }
+ #pic2{
+    height:200px;
+    width:200px;
+    margin-left:140px;
+    margin-top:-70px;
+   
+ }
+ 
+ .bottom{
+    
+    margin-bottom:-100px;
+    margin-top:20px;
+  
+ }
+
+.bottom{
+
+    border-top: 1px solid rgb(117, 117, 117);
+    border-bottom:1px solid rgb(90, 88, 88);
+    height:20px;
+    width:100%;
+   
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    text-align:center;
+    padding:30px;
+}
