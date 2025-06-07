@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(213, 210, 210);
+}
+#box1{
+    height:100px;
+    width:160px;
+    background-color:rgb(226, 96, 82);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:150px;
+    margin-left:150px;
+}
+#box2{
+     height:100px;
+    width:160px;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:250px;
+    align-items:center;
+    padding:2px;
+   
+}
+#pone{
+    color:black;
+    font-size:0.7em;
+  
+}
+
+.fa-brands fa-linkedin{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:150px;
+    width:150px;
+    align-items:center;
+    margin-left:200px;
+}
