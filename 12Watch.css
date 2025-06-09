@@ -90,3 +90,38 @@ button{
     border:1px solid rgb(22, 22, 22);
      color:rgb(23, 23, 23);
  }
+
+ .image{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+     margin-right:880px;
+    margin-top:50px;
+ }
+ #pic1,#pic2,#pic3{
+    height:50px;
+    width:50px;
+    border:6px solid rgb(172, 170, 170);
+    border-radius:50%;
+  }
+  #pic2,#pic1{
+    margin-right:-30px;
+  }
+  #box1{
+     height:50px;
+    width:50px;
+    background-color:rgb(44, 43, 43);
+    border:6px solid rgb(172, 170, 170);
+    border-radius:50%;
+    color:white;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:center;
+    margin-top:-65px;
+    margin-left:118px;
+
+  }
+  #pic4{
+    width:1000px;
+    height:auto;
+  }
