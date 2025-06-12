@@ -114,15 +114,17 @@ button{
     width: 800px;
     height:800px;
 
-}.footer{
-    margin-top:-480px;
-    margin-left:170px;
-    width:80%;
+}
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:-500px;
 }
 
-h1{
-    font-size:3em;
-    font-weight: bolder;
-
+#pthree,#pfour,#pfive{
+    color:rgb(132, 130, 130);
+    font-size:0.8em;
 
 }
+
