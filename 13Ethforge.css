@@ -66,10 +66,13 @@ button{
     margin-left:180px;
     margin-top:100px;
     width:20%;
-   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-family:'Segoe UI';
     white-space: nowrap;
 }
+
 #head{
      line-height:0.1px;
 }
@@ -77,28 +80,34 @@ button{
     background-color:rgb(239, 184, 30);
     height:50px;
     width:230px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+   
 }
 #ptwo{
-    margin-top:40px;
+    
     color:rgb(141, 133, 133);
-    font-size:0.25em;
+    font-size:0.8em;
     font-weight:lighter;
+    margin-top:-10px;
 }
 .buy{
-    margin-left:180px;
-    margin-top:30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 180px;
+   margin-top:-300px;
 }
+
 #button2{
     height:40px;
     width:110px;
     background-color:black;
     color:white;
     display: flex;
-    flex-direction: row;
+  
     text-align:center ;
     align-items:center;
 }
@@ -108,9 +117,33 @@ button{
     font-weight: bold;
 
 }
-.image{
+#image{
+    height:500px;
+    width: 500px;
+    
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-left:130px;
+     width:30%;
+
+    
+   
+}
+
+#image{
+    
+    height:500px;
+    width:500px;
+}
+
+
+/*.image{
     margin-left: 800px;
-    margin-top: -300px;
+    margin-top: -300px
     width: 800px;
     height:800px;
 
@@ -120,11 +153,18 @@ button{
     flex-direction:row;
     justify-content:space-around;
     margin-top:-500px;
-}
+}*/
 
 #pthree,#pfour,#pfive{
     color:rgb(132, 130, 130);
     font-size:0.8em;
 
+}
+#icon{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    border-radius: 50%;
 }
 
