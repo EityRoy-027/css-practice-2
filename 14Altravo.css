@@ -190,31 +190,26 @@ h5{
    #pf{
     color:rgb(14, 243, 52);
    }
-   .images{
-    background-color:rgb(220, 244, 186); ;
+   
+.lastpart{
+    background-color:rgb(220, 244, 186);
+}
+
+   #last1{
+    background-image: (travel1.jpeg);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
    }
-
-  #img{
-     display:flex;
+    #last2{
+    background-image: (travel.jpeg);
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:400px;
-    width:400px;
-    gap:40px;
-   
-
-  
-    
-  }
-  #img1{
-    margin-left:50px;
-    width:850px;
-
-  }
-
- .lastpart{
-      display:flex;
+   }
+    #last3{
+    background-image: (travelll.jpeg);
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
- }
-   
+   }
