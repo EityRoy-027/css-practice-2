@@ -96,19 +96,20 @@ i{
     font-size:1.2em;
     font-family: initial;
     font-weight: medium;
-    margin-left:10px;
-    margin-top: 20px;
+    width:100vw;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left:30px;
 
 }
 #head2{
      display: flex;
     flex-direction: column;
     justify-content: space-around;
-     margin-left: -260px;
-     margin-top: 20px;
+     
+     margin-top: -10px;
      font-size: 0.8em;
 
 }
@@ -119,15 +120,16 @@ button{
     color:white; 
     height:40px;
     width: 150px;
+     margin-top: -80px;
     
 }
 #bag{
     height:130px;
-    width:320px;
+    width:300px;
     background-color: white;
     border-radius: 10px;
-    margin-right: -230px;
-    margin-top: 30px;
+  
+    margin-top: 20px;
     
 }
 #two{
@@ -143,7 +145,8 @@ button{
     color: black;
     font-size: 0.8em;
     font-weight:medium;
-    margin-left: 140px;
+    margin-left:100px;
+    
      
 }
 #ptwo{
@@ -161,15 +164,57 @@ h5{
 #highlite{
         color: rgb(158, 246, 26);
          margin-top:-1px;
-          margin-left:140px;
+         margin-left:110px;
+          
     }
     line{
         width:600px;
         height:2px;
+        
     }
+
    .footer{
+    
+    width: 100vw;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color:rgb(220, 244, 186)
+    justify-content: space-between;
+    background-color:rgb(220, 244, 186);
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+    
    } 
+   #pf{
+    color:rgb(14, 243, 52);
+   }
+   .images{
+    background-color:rgb(220, 244, 186); ;
+   }
+
+  #img{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:400px;
+    width:400px;
+    gap:40px;
+   
+
+  
+    
+  }
+  #img1{
+    margin-left:50px;
+    width:850px;
+
+  }
+
+ .lastpart{
+      display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+   
