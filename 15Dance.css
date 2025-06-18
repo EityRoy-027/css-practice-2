@@ -162,12 +162,12 @@ display: flex;
 @keyframes rotation{
     from{
         transform: rotate(0deg);
-       transform translate y :(20px);
+       transform translate y (20px);
        
     }
     to{
-        transform: rotate(35deg);
-        translate y :(80px);
+        transform: rotate(45deg);
+        translate y (80px);
        
     }
 }
