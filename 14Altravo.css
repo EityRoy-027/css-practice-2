@@ -9,6 +9,7 @@ body{
     
     background-position:center ;
     background-repeat: no-repeat;
+   
     
 }
 
@@ -193,8 +194,11 @@ h5{
    
   .lastpart{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     color: white;
+    align-items: center;
+     background-color:rgb(228, 244, 206);
   }
 
    #last1{
@@ -232,8 +236,17 @@ h5{
    }
    #lastp{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
    }
    
+   #button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+   footer{
+     background-color:rgb(228, 244, 206);
+   }
