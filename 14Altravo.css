@@ -3,8 +3,9 @@ body{
     width:100vw;
     margin:0;
     padding:0;
-   background-image: url(tour2.png); 
+    background-image: url(tour2.png);
     background-size: cover;
+  
     
     background-position:center ;
     background-repeat: no-repeat;
@@ -12,7 +13,7 @@ body{
 }
 
 .navbar{
-    
+  
     width:100vw;
     height:40px;
     border-bottom:1px solid white;
@@ -21,9 +22,8 @@ body{
    justify-content:space-between;
    align-items: center;
    text-align: center;
-  
-   
 }
+
  a{
     text-decoration: none;
      color: white;
@@ -120,7 +120,7 @@ button{
     color:white; 
     height:40px;
     width: 150px;
-     margin-top: -80px;
+    
     
 }
 #bag{
@@ -179,7 +179,7 @@ h5{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:rgb(220, 244, 186);
+    background-color:rgb(228, 244, 206);
     align-items: center;
     text-align: center;
     margin: 0;
@@ -191,25 +191,49 @@ h5{
     color:rgb(14, 243, 52);
    }
    
-.lastpart{
-    background-color:rgb(220, 244, 186);
-}
+  .lastpart{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
 
    #last1{
-    background-image: (travel1.jpeg);
+    background-image:url("travel1.jpeg"); 
+    background-size: cover;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    width:350px;
+    height: 350px;
+    
    }
     #last2{
-    background-image: (travel.jpeg);
+    background-image:url("travel.jpeg");
+    background-size: cover;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-end;
+     background-repeat: no-repeat;
+      width:350px;
+    height: 350px;
+      
    }
     #last3{
-    background-image: (travelll.jpeg);
+    background-image: url("travelll.jpeg");
+    background-size: cover;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-end;
+     background-repeat: no-repeat;
+      width:350px;
+    height: 350px;
+      
    }
+   #lastp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+   }
+   
