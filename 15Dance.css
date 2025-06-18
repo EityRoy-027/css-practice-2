@@ -17,6 +17,7 @@ body{
  align-items: center;
  margin: 0;
  
+ 
 
 }
 i{
@@ -44,14 +45,30 @@ i{
     height:300px;
     width:300px;
     border-radius: 50%;
+    margin-top:-140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1px solid white;
     align-items: center; 
     color: white;
+     animation-name: fan;
+ animation-direction: alternate;
+ animation-duration: 5s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+ animation-delay: 1s;
+ 
   
     
+}
+@keyframes fan{
+  from{
+   transform: rotate(0deg);
+  }
+   to{
+    transform:rotate(360deg);
+  }
 }
 p{
     
@@ -75,6 +92,7 @@ p{
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
+ padding: 50px;
 }
 h1{
     color: white;
@@ -84,16 +102,17 @@ h1{
      display: flex;
  flex-direction: row;
  justify-content:flex-start;
+
 }
 #boll1,#boll3{
-    height:80px;
-    width: 80px;
+    height:90px;
+    width: 90px;
     border-radius: 50%;
    background-color: rgb(54, 53, 53);
 }
 #boll2{
-    height:80px;
-    width: 80px;
+    height:90px;
+    width: 90px;
     border-radius: 50%;
     background-color: rgb(238, 151, 11);
 }
@@ -102,6 +121,7 @@ h1{
  flex-direction: row;
  justify-content:space-between;
  align-items: center;
+ padding:50px;
  
 }
 h4{
@@ -147,6 +167,7 @@ display: flex;
  flex-direction: row;
  justify-content:space-between;
  align-items: center;
+ padding:50px;
 }
 #bighead{
     font-size:4.5em;
