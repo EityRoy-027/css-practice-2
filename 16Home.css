@@ -1,0 +1,186 @@
+.body{
+    height:100vh;
+    width:100vw;
+    margin:0px;
+    padding:0px;
+    background-color:white;
+}
+.navbar{
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:20px;
+}
+
+i{
+   color:black;
+
+}
+.fa-angle-down{
+    color:rgb(141, 140, 140);
+    
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+
+#midnav{
+    height:60px;
+  width:500px;
+    background-color:rgb(234, 232, 232);
+    border-radius:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+button{
+    height:45px;
+    width:120px;
+   border-radius:30px;
+   border: 1px solid black;
+    background-color:black;
+    color:white;
+      align-items:center;
+}
+.mid{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top:50px;
+    align-items: center;
+    
+}
+#head{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+#h{
+    font-size:3em;
+    color:black;
+    font-weight: 400;
+}
+#pone{
+    font-size:0.9em;
+    color:rgb(87, 87, 87);
+   margin-top: -30px;
+}
+    
+
+
+.text-input {
+  height: 30px;
+  width: 400px;
+  border: 1px solid rgb(133, 126, 126);
+  border-radius: 30px;
+   padding-left:15px;
+}
+#ptwo{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.fa-bookmark{
+    margin-top:20px;
+}
+
+
+
+.last{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-right:140px;
+    padding-left:170px;
+}
+#box{
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+     gap: 20px;
+   
+}
+#box1{
+     height:140px;
+    width:200px;
+    background-color: rgb(219, 236, 252);
+    border-radius: 20px;
+    
+}
+#box2{
+       height:140px;
+       width:200px;
+       border-radius: 20px;
+    background-color: rgb(217, 240, 248);
+}
+#no{
+    font-size: 1.2em;
+
+}
+#room{
+    height:300px;
+    width:430px;
+    display:flex;
+     flex-direction:column;
+    border-radius: 20px;
+    justify-content:flex-start;
+    background-color: rgb(251, 249, 249);
+    padding:30px;
+    
+    
+    
+}
+
+
+#roomno{
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9em;
+}
+#roomname{
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+#section{
+    height:1px;
+    width: 200px;
+    border: 1 px solid black;
+}
+#psec{
+    font-size: 1.5em;
+    font-weight: medium;
+}
+#details{
+    height:30px;
+    width:130px;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    margin-left:90px;
+   
+}
+#lastbar{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
