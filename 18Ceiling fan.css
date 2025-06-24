@@ -1,0 +1,32 @@
+.fan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   margin-top: 70px;;
+    align-items: center;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function:ease-out;
+    animation-direction:normal;
+    transform:rotate(0deg);
+    
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+          
+    }
+    100%{
+        transform: rotate(2000deg);
+         
+    }
+   
+}
+  
