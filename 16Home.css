@@ -129,7 +129,7 @@ button{
 
 }
 #room{
-    height:300px;
+    height:220px;
     width:250px;
     display:flex;
      flex-direction:column;
